@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 23, 23);
+}
+#listsBoxContainer {
+  width: 300px;
+  max-height: 400px;
+  margin: 20px;
+  background-color: #eef5ff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.todoHeader {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgb(37, 141, 238);
+  color: white;
+
+  padding: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.workingHeader {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #ff6500;
+  color: white;
+  padding: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.doneHeader {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgb(44, 165, 60);
+  color: white;
+  padding: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#left,
+#middle,
+#right {
+  max-height: 340px;
+  padding: 0.8rem;
+  overflow: auto;
+}
+.list {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  background-color: white;
+  margin: 15px 0;
+  padding: 0px 20px;
+  box-shadow: -1px 1px 2px 1px rgba(128, 128, 128, 0.384);
+  border-radius: 2px;
+}
